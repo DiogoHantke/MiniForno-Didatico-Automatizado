@@ -1,0 +1,30 @@
+# Build outputs
+Debug/
+Release/
+build/
+.pio/
+
+# STM32CubeIDE generated artifacts
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.o
+*.obj
+*.d
+*.su
+*.cyclo
+*.lst
+
+# Local IDE and OS files
+.metadata/
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.log
