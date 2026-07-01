@@ -352,10 +352,10 @@ O arquivo vetorial completo tambem esta disponivel em [`assets/circuito-completo
 
 | Campo | Informacao |
 | --- | --- |
-| Aluno(s) | Preencher |
-| Orientador(a) | Preencher |
-| Instituicao | Preencher |
-| Disciplina | Microcontroladores |
+| Aluno(s) | Diogo Hantke Rodrigues Garcia, Leticia Polatto de Novaes |
+| Orientador(a) | Marcos Aparecido Chaves Ferreira  |
+| Instituicao | IFSP - Instituto Federal de Educação, Ciência e Tecnologia de São Paulo  |
+| Disciplina | SISTEMAS MICROCONTROLADOS |
 
 ## Referencia visual
 
