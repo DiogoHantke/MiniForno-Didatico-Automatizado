@@ -132,13 +132,13 @@ O mapa abaixo foi consolidado a partir de `firmware/stm32/DRIVERSTM32/Inc/main.h
 flowchart LR
     U["Usuario"] --> W["Dashboard Web ESP32"]
     U --> B["Botoes fisicos"]
-    W <-->|"UART 115200 bps"| S["STM32F411CEU6"]
+    W <-->E["ESP32"]-->|"UART 115200 bps"| S["STM32F411CEU6"]
     B --> S
-    T["Sensor de temperatura"] --> S
-    M["MPU6050 / porta"] --> S
-    S --> O["OLED I2C"]
-    S --> L["LEDs de status"]
-    S --> P["PWM proporcional"]
+    T["Sensor de temperatura"] --> A["ADC0"] --> S
+    M["MPU6050 / porta"] --> |"I2C"| S
+    S -->|"I2C"| O["OLED I2C"]
+    S --> D["DAC0"]--> L["LEDs de status"]
+    S --> D["DAC0"] --> P["PWM proporcional"]
     P --> R["Resistencia do forno"]
 ```
 
