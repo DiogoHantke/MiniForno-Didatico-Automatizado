@@ -354,7 +354,7 @@ O arquivo vetorial completo tambem esta disponivel em [`assets/circuito-completo
 | --- | --- |
 | Aluno(s) | Diogo Hantke Rodrigues Garcia, Leticia Polatto de Novaes |
 | Orientador(a) | Marcos Aparecido Chaves Ferreira  |
-| Instituicao | IFSP - Instituto Federal de Educação, Ciência e Tecnologia de São Paulo  |
+| Instituicao | IFSP - Instituto Federal de Educação, Ciência e Tecnologia Campus Catanduva  |
 | Disciplina | SISTEMAS MICROCONTROLADOS |
 
 ## Referencia visual
